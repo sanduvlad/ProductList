@@ -1,0 +1,9 @@
+C:\Users\vlad.sandu\documents\visual studio 2015\Projects\ShopList\DataContextDataBase\bin\Debug\DataContextDataBase.dacpac
+C:\Users\vlad.sandu\documents\visual studio 2015\Projects\ShopList\DataContextDataBase\bin\Debug\DataContextDataBase.dll
+C:\Users\vlad.sandu\documents\visual studio 2015\Projects\ShopList\DataContextDataBase\bin\Debug\DataContextDataBase.pdb
+C:\Users\vlad.sandu\documents\visual studio 2015\Projects\ShopList\DataContextDataBase\obj\Debug\Model.xml
+C:\Users\vlad.sandu\documents\visual studio 2015\Projects\ShopList\DataContextDataBase\obj\Debug\refactor.xml
+C:\Users\vlad.sandu\documents\visual studio 2015\Projects\ShopList\DataContextDataBase\obj\Debug\postdeploy.sql
+C:\Users\vlad.sandu\documents\visual studio 2015\Projects\ShopList\DataContextDataBase\obj\Debug\predeploy.sql
+C:\Users\vlad.sandu\documents\visual studio 2015\Projects\ShopList\DataContextDataBase\obj\Debug\DataContextDataBase.dll
+C:\Users\vlad.sandu\documents\visual studio 2015\Projects\ShopList\DataContextDataBase\obj\Debug\DataContextDataBase.pdb

@@ -1,0 +1,5 @@
+C:\Users\vlad.sandu\documents\visual studio 2015\Projects\ShopList\DataContext\obj\Debug\DataContext.csprojResolveAssemblyReference.cache
+C:\Users\vlad.sandu\documents\visual studio 2015\Projects\ShopList\DataContext\bin\Debug\DataContext.dll
+C:\Users\vlad.sandu\documents\visual studio 2015\Projects\ShopList\DataContext\bin\Debug\DataContext.pdb
+C:\Users\vlad.sandu\documents\visual studio 2015\Projects\ShopList\DataContext\obj\Debug\DataContext.dll
+C:\Users\vlad.sandu\documents\visual studio 2015\Projects\ShopList\DataContext\obj\Debug\DataContext.pdb

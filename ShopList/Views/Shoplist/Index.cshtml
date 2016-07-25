@@ -1,0 +1,55 @@
+﻿@model DataContext.Models.Product
+
+@{
+    ViewBag.Title = "Index";
+    //ViewBag.Data = "";
+}
+
+<script src="~/Content/UpdateProductList.js"></script>
+
+<body onload="OnLoadEvent()">
+    <h2>Shopping list</h2>
+
+    <div id="FruitList" style="margin-bottom:30px">
+        
+    </div>
+
+    <button id="AddNewProdButton" class="btn btn-default" onclick="AddNewProductClickEvent()">Add new product &raquo;</button>
+
+    <div hidden id="AddNewProductForm" class="ProductFormHidden">
+        
+        @using (Html.BeginForm("Save", "ShopList", FormMethod.Post))
+        {
+            <form action="" method="post">
+                @*<label for="POST-name">Name</label>*@
+                @Html.LabelFor(m => m.Name)
+                @Html.TextBoxFor(m => m.Name, new { @class = "form-control", @placeholder = "Name" })
+                @*<input type="text" id="name-text-box" class="form-control" placeholder="Name" style="margin-bottom:20px" />*@
+
+                @Html.LabelFor(m => m.Description)
+                @Html.TextBoxFor(m => m.Description, new { @class = "form-control", @placeholder = "Description" })
+                @*<label id="POST-description">Description</label>*@
+                @*<input type="text" class="form-control" placeholder="Description" style="margin-bottom:20px" />*@
+
+                @Html.LabelFor(m => m.Price)
+                @Html.TextBoxFor(m => m.Price, new { @class = "form-control", @placeholder = "Price" })
+                @*<label id="POST-price">Price</label>*@
+                @*<input type="text" class="form-control" placeholder="Price" style="margin-bottom:20px" />*@
+
+                <input type="submit" value="Add new product &raquo" class="btn btn-warning" style="margin-top:15px" />
+
+
+            </form>
+        }
+
+
+    </div>
+
+
+
+
+
+    <br />
+    <br />
+
+</body>
